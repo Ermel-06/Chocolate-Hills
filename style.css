@@ -1,0 +1,82 @@
+body {
+    background-color: #f8f9fa;
+    font-family: playfair display, sans-serif;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #7A5E3A;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    color: #E5D8B6 !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #E5D8B6 !important;
+    margin: 0 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.navbar-toggler {
+    border-color: #E5D8B6;
+}
+
+
+.container-fluid {
+    background-image: url('images/landing_page.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero {
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    color: #4B2E0F;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 170px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.hero p {
+    color: #E5D8B6;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.hero a {
+    background-color: #7A5E3A;
+    color: #E5D8B6;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.hero a:hover {
+    background-color: #5D4037;
+    color: #fff;
+}
