@@ -17,6 +17,11 @@ body {
     color: #E5D8B6 !important;
     font-weight: bold;
     font-size: 1.5rem;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand:hover {
+    color: #fff !important;
 }
 
 .nav-link {
@@ -50,7 +55,7 @@ body {
     font-weight: bold;
     margin-top: 170px;
     margin-bottom: 30px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -58,7 +63,7 @@ body {
     color: #E5D8B6;
     font-size: 1.5rem;
     margin-bottom: 20px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
 }
 
 .hero a {
@@ -81,4 +86,42 @@ body {
     color: #4B2E0F;
     line-height: 1.6;
     font-family: Poppins, sans-serif;
+}
+
+.attraction .card {
+    background-color: #CE9F52;
+}
+
+.planVisit .card {
+    background-color: #CE9F52;
+}
+
+.planVisit .card .card-body .p {
+    color: #4B2E0F;
+}
+
+.planVisit .card .card-body .p:hover {
+    color: #CE9F52;
+}
+
+
+.planVisit .card .card-body p {
+    color: #4B2E0F;
+
+}
+
+.planVisit .card .card-body:hover p {
+    color: #CE9F52;
+}
+
+.planVisit .card .dry:hover {
+    background-color: #5D4037;
+    color: #CE9F52;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.planVisit .card .rainy:hover {
+    background-color: #3A5D3A;
+    color: #CE9F52;
+    border-radius: 0 0 2rem 2rem;
 }
